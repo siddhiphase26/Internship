@@ -77,32 +77,30 @@ The Signup page is used to create a new user account. Users enter their personal
   Used to take user input such as name, email, phone number, and passwords.
   The `required` attribute forces the user to fill the field.
 
-* **<select> dropdown**
+  # <select> dropdown
   Used to select the user type: Student or Admin.
 
-* **Register button**
+  # Register button
   Submits the signup form.
 
-* **Login link**
+  # Login link
   Redirects the user to the Login page.
 
 ---
 
 ## 2. Login Page
 
-### Purpose
-
+# Purpose
 The Login page is used by existing users to log into their account using their username and password.
 
-### Main Features
-
+# Main Features
 * Username input
 * Password input
 * Login button
 * Link to Signup page
 * Forgot Password link
 
-### Code Explanation (Main Parts)
+# Code Explanation (Main Parts)
 
 # <!DOCTYPE html>
   Defines the document as HTML5.
