@@ -104,46 +104,46 @@ The Login page is used by existing users to log into their account using their u
 
 ### Code Explanation (Main Parts)
 
-* **<!DOCTYPE html>**
+# <!DOCTYPE html>
   Defines the document as HTML5.
 
-* **<html>, <head>, <body>**
+# <html>, <head>, <body>
   `<html>` contains the whole page.
   `<head>` contains the title and CSS.
   `<body>` contains all visible elements.
 
-* **<title>Login</title>**
+# <title>Login</title>
   Displays "Login" on the browser tab.
 
-* **Body background and centering**
+# Body background and centering
   Gradient background is used and the login box is centered using flexbox.
 
-* **.card class**
+# .card class
   Creates the white login box with padding, shadow, and rounded corners.
 
-* **<h2>User Login</h2>**
+# <h2>User Login</h2>
   Heading of the login form.
 
-* **<form> tag**
+# <form> tag
   Contains username field, password field, and the Login button.
 
-* **<label> tag**
+# <label> tag
   Shows the name of each field (Username and Password).
 
-* **<input> fields**
+# <input> fields
   Username is taken using text type.
   Password is hidden using password type.
   `required` ensures the user must fill the fields.
 
-* **Login button**
+# Login button
   Submits the login form.
 
-* **Signup and Forgot Password links**
+# Signup and Forgot Password links
   These allow navigation to the signup page and password recovery.
 
 ---
 
-## Output
+# Output
 
 * The Signup page shows a centered card with all registration fields and a Register button.
 * The Login page shows a centered card with username and password fields and a Login button.
