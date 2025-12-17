@@ -1,0 +1,137 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f9fafb;
+    color: #0f172a;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    background: #0f172a;
+    padding: 16px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left a {
+    color: white;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.nav-left a:hover {
+    color: #14b8a6;
+}
+
+.logo {
+    color: #14b8a6;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: #ffffff;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Cards */
+.card-section {
+    display: flex;
+    gap: 25px;
+    padding: 60px 8%;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    flex: 1;
+    min-width: 260px;
+    border-top: 4px solid #14b8a6;
+}
+
+/* Page Title */
+.page-title {
+    text-align: center;
+    padding: 60px 20px;
+    background: #0f172a;
+    color: white;
+}
+
+/* About */
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 60px 8%;
+}
+
+.about-card {
+    background: white;
+    padding: 25px;
+    border-left: 4px solid #14b8a6;
+}
+
+.about-card iframe {
+    width: 100%;
+    border: none;
+}
+
+/* Contact */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.contact-form form {
+    background: white;
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    border-top: 4px solid #14b8a6;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+}
+
+.contact-form button {
+    background: #14b8a6;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-section {
+        flex-direction: column;
+    }
+}
