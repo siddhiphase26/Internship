@@ -79,7 +79,7 @@ function validateForm() {
 
     if (isValid) {
         document.getElementById("successMsg").innerHTML =
-            "Registration Successful! 🎉";
+            "Registration Successful! ";
     }
 
     return false;
@@ -117,3 +117,4 @@ function checkStrength() {
         strengthMsg.innerHTML = "Weak Password";
     }
 }
+
